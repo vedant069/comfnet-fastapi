@@ -7,7 +7,7 @@ import importlib.util
 # Add code to handle directories with hyphens
 hyphen_dirs = [
     os.path.join(os.path.dirname(os.path.abspath(__file__)), "Job-search"),
-    os.path.join(os.path.dirname(os.path.abspath(__file__)), "candidate-search")
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "candidate_search")
 ]
 
 for hyphen_dir in hyphen_dirs:
